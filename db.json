@@ -4,59 +4,82 @@
     {
       "id": "1",
       "title": "a title",
-      "views": 100
+      "views": 100,
+      "isDeleted": false
     },
     {
       "id": "2",
       "title": "another title",
-      "views": 200
+      "views": 200,
+      "isDeleted": false
     },
     {
       "id": "3",
       "title": "another title",
-      "views": 200
+      "views": 200,
+      "isDeleted": false
     },
     {
       "id": "4",
       "title": "chu tu",
-      "views": "900"
+      "views": "900",
+      "isDeleted": true
     },
     {
       "id": "5",
-      "title": "to",
-      "views": "900"
+      "title": "123",
+      "views": "123",
+      "isDeleted": true
     },
     {
       "id": "6",
-      "title": "hahah",
-      "views": "999"
-    },
-    {
-      "id": "7",
-      "title": "hehehhe",
-      "views": "999"
-    },
-    {
-      "id": "99",
-      "title": "909999",
-      "views": "99"
-    },
-    {
-      "id": "9999",
-      "title": "99",
-      "views": "999"
+      "title": "123",
+      "views": "213312",
+      "isDeleted": true
     }
   ],
   "comments": [
     {
       "id": "1",
       "text": "a comment about post 1",
-      "postId": "1"
+      "postId": "1",
+      "isDeleted": false
     },
     {
       "id": "2",
       "text": "another comment about post 1",
-      "postId": "1"
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "text": "33333",
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "4",
+      "text": "123",
+      "postId": "5",
+      "isDeleted": true
+    },
+    {
+      "id": "5",
+      "text": "333111",
+      "postId": "2",
+      "isDeleted": false
+    },
+    {
+      "id": "6",
+      "text": "333111",
+      "postId": "3",
+      "isDeleted": false
+    },
+    {
+      "id": "7",
+      "text": "3111",
+      "postId": "3",
+      "isDeleted": false
     }
   ],
   "profile": {
