@@ -465,5 +465,19 @@ pageSizeSelect.addEventListener("change", () => {
 });
 document.getElementById("exportBtn").addEventListener("click", exportToCSV);
 
-// Khởi động ứng dụng
 fetchProducts();
+
+document.getElementById("createBtn").addEventListener("click", () => {
+  // Reset form để sạch sẽ mỗi lần mở
+  const form = document.getElementById("createProductForm");
+  if (form) form.reset();
+  
+  // Đặt giá trị mặc định cho Category ID
+  document.getElementById("createCategoryId").value = "1";
+  
+  // Mở modal
+  createModal.show();
+});
+
+// Khởi động ứng dụng
+
